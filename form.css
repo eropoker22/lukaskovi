@@ -1,0 +1,84 @@
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+    
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: 1;
+}
+label  { position: absolute;
+    max-width: 130px;
+    top: 240px;
+    left: 240px;
+    padding: .2em .8em;
+    border: 1px solid #03E76A ;
+    border-radius: 5px;
+    outline: none;
+    opacity: .9;
+}
+.inputfile + label {
+    font-size: .6rem;
+    font-weight: 500;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    cursor: pointer;
+    background-color: #03e76a10;
+    
+}
+form p {
+    font-size: .6rem;
+    position: absolute;
+    color: #03E76A;
+}
+.popisek-nick {
+    left: 180px;
+    top: 221.8px;
+}
+.popisek-text {
+    top: 245px;
+    left: 180px;
+}
+.form-nick {
+    position: absolute;
+    top: 242px;
+    font-size: .5rem;
+    left: 180px;
+    max-width: 50px;
+    border: none;
+    opacity: .6;
+    outline: none
+}
+textarea {
+    font-size: .5rem;
+    position: absolute;
+    border: none;
+    opacity: .6;
+    word-break: break-all;
+    white-space: initial;
+    left: 180px;
+    top: 265px;
+    height: 38px;
+    width: 175px;
+    outline: none
+}
+.submit {
+    color: #03E76A;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #000201b3;
+    position: absolute;
+    left: 362.5px;
+    top: 272.5px;
+    padding: 4px 15px;
+}
+.submit:hover {
+    color: #ffffff;
+    transition: 350ms;
+}
